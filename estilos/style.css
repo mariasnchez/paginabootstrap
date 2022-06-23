@@ -15,7 +15,24 @@
 .vh-95{height:95vh;}
 
 
-        
+#barra{
+    width: 45px;
+    height: 45px;
+}
+.mifuente {font-family: minombre;}
+
+.navbar {z-index:1020;}
+
+.vh-95{height:95vh;}
+
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }    
 #inicio {
 	background: url(../imagenes/viaje.jpg)  no-repeat center top;
     text-align: center;
@@ -47,16 +64,15 @@
 
 #planeatuviaje{
     text-align: center;
-	margin-top: -55px;
-	padding-top: 200px;
-	min-height: 1100px;
+    padding-bottom: 60px;
+    padding-top:  60px;
 	width: 100%;
     color: #6d6d6d;
     background-color: #fbffda;
 }
 #planeatuviaje h1 {
     color: #8b84a7;
-    margin-top: -90px;
+   
 	font-weight: bold;
 	margin-bottom: 30;
 }
@@ -80,16 +96,15 @@
 
 #pocopresupuesto{
     text-align: center;
-	margin-top: -55px;
-	padding-top: 200px;
-	min-height: 1150px;
+	padding-bottom: 60px;
+    padding-top:  60px;
 	width: 100%;
     color: #6d6d6d;
     background-color: #b3dfec;
 }
 #pocopresupuesto h1 {
     color: #ffffff;
-    margin-top: 80px;
+   
 	font-weight: bold;
 	margin-bottom: 30;
 }
@@ -101,16 +116,18 @@
 }
 
 #maleta {
-    max-width:700px;
-    display:block;
-    margin:auto;
+    width: 75%;
+    height: auto;
+    padding-bottom: 60px;
 }
 
 #espana{
     text-align: center;
-	margin-top: -55px;
+	
 	padding-top: 200px;
-	min-height: 1650px;
+    padding-bottom: 60px;
+
+	
 	width: 100%;
     color: #6d6d6d;
     background-color: #fbffda;
@@ -174,3 +191,5 @@
     width:100%;
     position:absolute;
     }
+
+   
